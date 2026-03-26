@@ -1,42 +1,8 @@
-# --- SEGURIDAD (CRÍTICO) ---
-# Nunca subir las llaves de API ni credenciales
 .env
-auth.json
-*.pem
-secrets.py
-
-# --- ENTORNOS VIRTUALES ---
-# No subir la carpeta de la librería (AURORA/ o venv/)
-AURORA/
-venv/
-env/
-ENV/
-bin/
-lib/
-include/
-
-# --- PYTHON ---
-# Archivos temporales de ejecución
 __pycache__/
 *.py[cod]
-*$py.class
-.pytest_cache/
-
-# --- DATOS Y DATASETS (WESAD) ---
-# Los datasets son pesados; mejor dejar el link en el README
-# Si tus archivos de WESAD terminan en .pkl o .csv:
+AURORA/
+.vscode/
+.DS_Store
 *.pkl
 *.csv
-datasets/
-data/raw/
-
-# --- IDEs Y EDITORES ---
-.vscode/
-.idea/
-.DS_Store (Mac)
-Thumbs.db (Windows)
-
-# --- APP MÓVIL (Si usas Flutter/React Native) ---
-build/
-.dart_tool/
-android/app/debug/
