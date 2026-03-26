@@ -1,8 +1,23 @@
+# Entorno Virtual
+AURORA/
+venv/
+env/
+
+# Seguridad
 .env
+*.pem
+secrets.py
+
+# Temporales de Python
 __pycache__/
 *.py[cod]
-AURORA/
-.vscode/
-.DS_Store
-*.pkl
+.pytest_cache/
+
+# Datos pesados
 *.csv
+*.pkl
+datasets/
+
+# Sistema
+.DS_Store
+Thumbs.db
