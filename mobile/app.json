@@ -5,15 +5,8 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "android": {
-      "package": "com.neurocare.aurora"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "3b8d1ed4-8c16-45a0-8883-2908dc052728"
-      }
-    },
-    "ios": {
-      "bundleIdentifier": "com.neurocare.aurora"
+      "package": "com.neurocare.aurora",
+      "targetSdkVersion": 34
     }
   }
 }
