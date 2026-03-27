@@ -1,0 +1,1 @@
+{\n  "name": "mobile",\n  "version": "1.0.0",\n  "dependencies": {\n    "react": "^17.0.1",\n    "react-native": "^0.64.2",\n    "expo": "^43.0.0"\n  }\n}
