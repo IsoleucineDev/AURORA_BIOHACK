@@ -4,8 +4,18 @@
     "slug": "aurora-biohack",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0e27"
+    },
     "android": {
-      "package": "com.neurocare.aurora"
+      "package": "com.neurocare.aurora",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0e27"
+      }
     }
   }
 }
