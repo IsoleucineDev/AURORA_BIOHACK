@@ -17,3 +17,20 @@
 1. Clona el repo.
 2. Crea tu venv: `source AURORA/bin/activate`
 3. Instala: `pip install -r requirements.txt`
+
+---
+
+## IV. Arquitectura y UX de la Aplicación (Especificaciones)
+
+La interfaz se segmenta en dos perfiles mediante un interruptor de perfil:
+
+### 1. Panel del Paciente (Interfaz Intuitiva)
+* **Semáforo de Estado:** Indicador visual (Verde/Amarillo/Rojo) basado en IA.
+* **Alertas de Acción:** Instrucciones en crisis (ej. "Siéntese erguido").
+* **Gráfica Simplificada:** Métrica de "Bienestar" (0-100) combinando HRV y EDA.
+
+### 2. Panel Médico (Información Técnica)
+* **Tacograma:** Visualización de intervalos $RR$ para arritmias.
+* **Desglose de EDA:** Micro-picos de conductancia (SCR) para el sistema nervioso.
+* **Logs de Eventos:** Registro con marcas de tiempo para ajuste de medicación.
+
