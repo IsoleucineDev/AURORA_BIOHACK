@@ -1,1 +1,19 @@
-{\n  "name": "mobile",\n  "version": "1.0.0",\n  "dependencies": {\n    "react": "^17.0.1",\n    "react-native": "^0.64.2",\n    "expo": "^43.0.0"\n  }\n}
+{
+  "name": "aurora-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "expo": "~49.0.0",
+    "react": "18.2.0",
+    "react-native": "0.71.8",
+    "expo-splash-screen": "~0.20.5",
+    "expo-status-bar": "~1.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  }
+}
